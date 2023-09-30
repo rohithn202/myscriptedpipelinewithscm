@@ -7,8 +7,4 @@ node {
             //test the application
             echo 'test success'
      }
-     stage ('deploy') {
-            //deploy the application
-            echo 'deployment successful'
-     }
 }
