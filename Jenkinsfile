@@ -1,8 +1,4 @@
-node {
-     stage ('requirement analysis') {
-            //build the application
-            echo 'planning success'
-     }     
+node { 
      stage ('build') {
             //build the application
             echo 'build success'
