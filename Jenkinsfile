@@ -1,7 +1,7 @@
 node { 
      stage ('build') {
             //build the application
-            echo 'build success'
+            echo 'build successful'
      }
      stage ('test') {
             //test the application
